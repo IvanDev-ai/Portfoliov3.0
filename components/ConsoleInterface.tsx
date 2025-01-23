@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState} from 'react';
 import Slider from "react-slick";
 interface ConsoleOption {
   label: string;
