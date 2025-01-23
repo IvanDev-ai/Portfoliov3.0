@@ -266,10 +266,10 @@ const ConsoleInterface: React.FC = () => {
   };
 
   return (
-    <div className="bg-black/90 text-green-500 font-mono p-6 rounded-xl shadow-2xl w-full max-w-[1400px] h-[700px] border border-green-800 relative">
+    <div className="bg-black/90 text-green-500 font-mono p-6 rounded-xl shadow-2xl w-full max-w-[1200px] h-[700px] border border-green-800 relative">
   
   {/* Cabecera de la consola */}
-  <div className="console-header flex justify-between mb-4 flex-wrap">
+  <div className="console-header flex justify-between mb-4 md:flex-wrap">
     <span className="text-sm flex items-center space-x-2">
       <span className="text-xl">🖥️</span>
       <span>Digital Investigator Console</span>
@@ -282,7 +282,7 @@ const ConsoleInterface: React.FC = () => {
   </div>
 
   {/* Opciones */}
-  <div className="console-options grid sm:grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+  <div className="console-options grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
     {consoleOptions.map((option) => (
       <button
         key={option.command}
