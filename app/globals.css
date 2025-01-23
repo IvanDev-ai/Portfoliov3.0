@@ -13,7 +13,9 @@
     --foreground: #ededed;
   }
 }
-
+/* Importa los estilos necesarios para Slick Carousel */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 body {
   color: var(--foreground);
   background: var(--background);
