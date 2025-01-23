@@ -217,7 +217,7 @@ const ConsoleInterface: React.FC = () => {
               <p className="text-green-400">
                 LinkedIn:{" "}
                 <a
-                  href="www.linkedin.com/in/ivan-lumbreras-martin"
+                  href="https://www.linkedin.com/in/ivan-lumbreras-martin/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400"
